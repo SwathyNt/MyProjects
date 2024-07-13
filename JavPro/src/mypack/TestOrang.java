@@ -28,7 +28,7 @@ public class TestOrang {
      } 
 	finally {
          // Close the browser
-         driver.quit();
+         driver.close();
 	}
 	}
 }
