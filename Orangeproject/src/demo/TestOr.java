@@ -1,9 +1,12 @@
-package mypack;
+package demo;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebElement;
-public class TestOrang {
+
+public class TestOr {
+
 	public static void main(String[] args)
 	{
 	WebDriver driver = new ChromeDriver();
@@ -29,7 +32,6 @@ public class TestOrang {
 	finally {
          // Close the browser
          driver.close();
-         system.out.println("xyz");
 	}
 	}
 }
